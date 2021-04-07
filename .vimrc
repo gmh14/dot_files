@@ -11,6 +11,7 @@ call plug#begin('~/.vim/plugged')
 Plug 'itchyny/lightline.vim'
 
 Plug 'scrooloose/nerdtree', { 'on':  'NERDTreeToggle' }
+let NERDTreeShowHidden=1
 
 Plug 'tell-k/vim-autopep8'
 let g:autopep8_max_line_length=150
@@ -26,6 +27,10 @@ nnoremap <leader>gd :YcmCompleter GoToDefinition<CR>
 nnoremap <leader>gr :YcmCompleter GoToDeclaration<CR>
 let g:ycm_complete_in_comments=1
 let g:ycm_autoclose_preview_window_after_completion=1
+
+Plug 'junegunn/fzf', { 'do': { -> fzf#install() } }
+Plug 'junegunn/fzf.vim'
+nnoremap <silent> <Leader>f :Rg<CR>
 
 Plug 'nathanaelkane/vim-indent-guides'
 let g:indent_guides_enable_on_vim_startup=1
