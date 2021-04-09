@@ -11,4 +11,4 @@ curl -fLo ~/.vim/autoload/plug.vim --create-dirs \
 pip install --upgrade autopep8
 ```
 
-## Install (rg)[https://github.com/BurntSushi/ripgrep]
+## Install [rg](https://github.com/BurntSushi/ripgrep)
