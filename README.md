@@ -11,6 +11,6 @@ curl -fLo ~/.vim/autoload/plug.vim --create-dirs \
 pip install --upgrade autopep8
 ```
 
-## Install (rg)[https://github.com/BurntSushi/ripgrep]
-
-## Follow (link)[https://github.com/fholgado/minibufexpl.vim/issues/145#issuecomment-271091282] to fix a bug of `minibufexpl`
+## Follow [link](https://github.com/fholgado/minibufexpl.vim/issues/145#issuecomment-271091282) to fix a bug of `minibufexpl`
+=======
+## Install [rg](https://github.com/BurntSushi/ripgrep)
